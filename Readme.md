@@ -1,6 +1,7 @@
 # Today's Objective: A personal NPM Utility library
 
 ## Prize
+THOMAS
 
 $25 CAD Amazon gift card + bragging rights.
 
