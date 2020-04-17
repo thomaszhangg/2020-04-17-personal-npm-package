@@ -1,15 +1,15 @@
-module.exports.reverseString = (string) => {
+const reverseString = (string) => {
   if (typeof string !== 'string') throw new TypeError('Thomas wants a string!');
   return string.split('').reverse().join('');
 };
 
-module.exports.kebabToCamel = (string) => {
+const kebabToCamel = (string) => {
   if (typeof string !== 'string') throw new TypeError('Thomas wants a string!');
   const camelizeREGEX = /-(\w)/g;
   return string.replace(camelizeREGEX, (_, c) => (c ? c.toUpperCase() : ''));
 };
 
-module.exports.numWithCommas = (num) => {
+const numWithCommas = (num) => {
   if (typeof num !== 'number') throw new TypeError('Thomas wants a number!');
   let numStr = String(num);
   let result = '';
@@ -26,13 +26,21 @@ module.exports.numWithCommas = (num) => {
   return result;
 };
 
-module.exports.summarize = (string, max) => {
+const summarize = (string, max) => {
   if (typeof string !== 'string') throw new TypeError('Thomas wants a string!');
   if (string.length > max) return string.substring(0, max - 3) + '...';
   return string;
 };
 
-module.exports.squareNum = (num) => {
+const squareNum = (num) => {
   if (typeof num !== 'number') throw new TypeError('Thomas wants a number!');
   return num ** 2;
+};
+
+module.exports = {
+  reverseString,
+  kebabToCamel,
+  numWithCommas,
+  summarize,
+  squareNum,
 };
