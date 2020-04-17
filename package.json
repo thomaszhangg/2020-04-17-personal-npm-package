@@ -1,6 +1,6 @@
 {
   "name": "npm-thomas-funky-functions",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "These are some fun and funky functions to help you manipulate strings, arrays, and objects!",
   "main": "index.js",
   "scripts": {
