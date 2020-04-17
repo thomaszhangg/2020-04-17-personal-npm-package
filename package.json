@@ -1,0 +1,29 @@
+{
+  "name": "npm-funkyfunctions",
+  "version": "1.0.0",
+  "description": "These are some fun and funky functions to help you manipulate strings, arrays, and objects!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomaszhangg/2020-04-17-personal-npm-package.git"
+  },
+  "keywords": [
+    "npm",
+    "npm-utils",
+    "npm-strings",
+    "npm-arrays",
+    "npm-objects",
+    "npm-reverse",
+    "npm-utilities",
+    "npm-fun-and-funky"
+  ],
+  "author": "Thomas Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomaszhangg/2020-04-17-personal-npm-package/issues"
+  },
+  "homepage": "https://github.com/thomaszhangg/2020-04-17-personal-npm-package#readme"
+}
